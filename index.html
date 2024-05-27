@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questionnaire Form</h1>
+        <form id="questionnaireForm" method="get">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="rollNumber">Roll Number:</label>
+                <input type="text" id="rollNumber" name="rollNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="batchNumber">Batch Number:</label>
+                <input type="text" id="batchNumber" name="batchNumber" required>
+            </div>
+
+            <hr>
+
+            <div class="questions">
+                <!-- 10 questions with 5 checkbox options each -->
+                <div class="form-group">
+                    <label class="questions">1. What is the capital of France?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q1" value="Paris"> Paris</label>
+                        <label><input type="checkbox" name="q1" value="London"> London</label>
+                        <label><input type="checkbox" name="q1" value="Berlin"> Berlin</label>
+                        <label><input type="checkbox" name="q1" value="Madrid"> Madrid</label>
+                        <label><input type="checkbox" name="q1" value="Rome"> Rome</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">2. What is 2 + 2?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q2" value="3"> 3</label>
+                        <label><input type="checkbox" name="q2" value="4"> 4</label>
+                        <label><input type="checkbox" name="q2" value="5"> 5</label>
+                        <label><input type="checkbox" name="q2" value="6"> 6</label>
+                        <label><input type="checkbox" name="q2" value="7"> 7</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">3. Which planet is known as the Red Planet?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q3" value="Mars"> Mars</label>
+                        <label><input type="checkbox" name="q3" value="Jupiter"> Jupiter</label>
+                        <label><input type="checkbox" name="q3" value="Saturn"> Saturn</label>
+                        <label><input type="checkbox" name="q3" value="Venus"> Venus</label>
+                        <label><input type="checkbox" name="q3" value="Mercury"> Mercury</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">4. What is the largest ocean on Earth?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q4" value="Pacific Ocean"> Pacific Ocean</label>
+                        <label><input type="checkbox" name="q4" value="Atlantic Ocean"> Atlantic Ocean</label>
+                        <label><input type="checkbox" name="q4" value="Indian Ocean"> Indian Ocean</label>
+                        <label><input type="checkbox" name="q4" value="Southern Ocean"> Southern Ocean</label>
+                        <label><input type="checkbox" name="q4" value="Arctic Ocean"> Arctic Ocean</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">5. What is the boiling point of water?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q5" value="90°C"> 90</label>
+                        <label><input type="checkbox" name="q5" value="95°C"> 95</label>
+                        <label><input type="checkbox" name="q5" value="100°C"> 100</label>
+                        <label><input type="checkbox" name="q5" value="105°C"> 105</label>
+                        <label><input type="checkbox" name="q5" value="110°C"> 110</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="questions">6. What color are bananas when they are ripe?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q6" value="Red"> Red</label>
+                        <label><input type="checkbox" name="q6" value="Green"> Green</label>
+                        <label><input type="checkbox" name="q6" value="Yellow"> Yellow</label>
+                        <label><input type="checkbox" name="q6" value="Blue"> Blue</label>
+                        <label><input type="checkbox" name="q6" value="Purple"> Purple</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">7. How many days are there in a week?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q7" value="5"> 5</label>
+                        <label><input type="checkbox" name="q7" value="6"> 6</label>
+                        <label><input type="checkbox" name="q7" value="7"> 7</label>
+                        <label><input type="checkbox" name="q7" value="8"> 8</label>
+                        <label><input type="checkbox" name="q7" value="9"> 9</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">8. What is the color of the sky on a clear day?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q8" value="Blue"> Blue</label>
+                        <label><input type="checkbox" name="q8" value="Green"> Green</label>
+                        <label><input type="checkbox" name="q8" value="Red"> Red</label>
+                        <label><input type="checkbox" name="q8" value="Yellow"> Yellow</label>
+                        <label><input type="checkbox" name="q8" value="Purple"> Purple</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">9. What is the main ingredient in bread?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q9" value="Flour"> Flour</label>
+                        <label><input type="checkbox" name="q9" value="Sugar"> Sugar</label>
+                        <label><input type="checkbox" name="q9" value="Salt"> Salt</label>
+                        <label><input type="checkbox" name="q9" value="Water"> Water</label>
+                        <label><input type="checkbox" name="q9" value="Yeast"> Yeast</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="questions">10. Which animal is known as man's best friend?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="q10" value="Cat"> Cat</label>
+                        <label><input type="checkbox" name="q10" value="Dog"> Dog</label>
+                        <label><input type="checkbox" name="q10" value="Bird"> Bird</label>
+                        <label><input type="checkbox" name="q10" value="Fish"> Fish</label>
+                        <label><input type="checkbox" name="q10" value="Rabbit"> Rabbit</label>
+                    </div>
+                </div>
+    
+                <button type="submit">Submit</button>
+            </form>
+    </div>
+</body>
+</html>
